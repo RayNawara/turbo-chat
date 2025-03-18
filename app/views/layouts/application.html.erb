@@ -34,7 +34,11 @@
   </head>
 
   <body>
-    <%#= render "layouts/header" %>
+    <%= render "layouts/header" %>
+
+    <div id="flash" class="flash">
+      <%= render "layouts/flash" %>
+    </div>
 
     <%= yield %>
   </body>

@@ -52,7 +52,12 @@ group :development do
   gem "web-console"
 end
 
-gem "vite_rails", "~> 3.0"
+# Hotwire's SPA-like page accelerator [https://turbo.hotwired.dev]
+gem "turbo-rails"
+# Hotwire's modest JavaScript framework [https://stimulus.hotwired.dev]
+gem "stimulus-rails"
+# Vite.js integration in Ruby web apps [https://vite-ruby.netlify.app/]
+gem "vite_rails"
 
 gem "devise", "~> 4.9"
 
