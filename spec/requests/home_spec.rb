@@ -9,7 +9,7 @@ RSpec.describe "Home", type: :request do
 
     it "renders the home page" do
       get "/"
-      expect(response.body).to include("Turbo chat")
+      expect(response.body).to include("AI chat")
     end
   end
 end
