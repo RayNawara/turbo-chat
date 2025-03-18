@@ -53,3 +53,5 @@ group :development do
 end
 
 gem "vite_rails", "~> 3.0"
+
+gem "devise", "~> 4.9"
