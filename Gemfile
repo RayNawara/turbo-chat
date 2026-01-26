@@ -61,7 +61,7 @@ gem "stimulus-rails"
 # Vite.js integration in Ruby web apps [https://vite-ruby.netlify.app/]
 gem "vite_rails"
 
-gem "devise", "~> 4.9"
+gem "devise", "~> 5.0"
 
 gem "bootstrap", "~> 5.3"
 
